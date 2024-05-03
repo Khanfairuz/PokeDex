@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="ac1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="657.0" prefWidth="948.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.lab08_1a_210041109.HelloController">
+   <children>
+      <ImageView fx:id="search" fitHeight="49.0" fitWidth="52.0" layoutX="39.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../imageFolder/search.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="buttonsearch" layoutX="377.0" layoutY="38.0" mnemonicParsing="false" onAction="#startSearching" prefHeight="30.0" prefWidth="49.0" text="Click" textFill="#004cff" />
+      <TextField fx:id="searchfield" layoutX="95.0" layoutY="32.0" prefHeight="42.0" prefWidth="276.0" promptText="Name Or Type">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </TextField>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="302.0" layoutY="96.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="img1" fitHeight="150.0" fitWidth="200.0" layoutX="24.0" layoutY="96.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../imageFolder/bulbasaur.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="579.0" layoutY="96.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="img2" fitHeight="150.0" fitWidth="200.0" layoutX="233.0" layoutY="96.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../imageFolder/ivysaur.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="img3" fitHeight="150.0" fitWidth="200.0" layoutX="419.0" layoutY="96.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../imageFolder/venusaur.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="img4" fitHeight="150.0" fitWidth="200.0" layoutX="601.0" layoutY="96.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../imageFolder/charmander.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="img5" fitHeight="150.0" fitWidth="200.0" layoutX="779.0" layoutY="88.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../imageFolder/charmeleon.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="img6" fitHeight="150.0" fitWidth="200.0" layoutX="24.0" layoutY="279.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../imageFolder/charizard.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="img7" fitHeight="150.0" fitWidth="200.0" layoutX="233.0" layoutY="279.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../imageFolder/squirtle.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="img8" fitHeight="150.0" fitWidth="200.0" layoutX="427.0" layoutY="288.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../imageFolder/wartortle.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="img9" fitHeight="150.0" fitWidth="200.0" layoutX="612.0" layoutY="279.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../imageFolder/blastoise.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="img10" fitHeight="150.0" fitWidth="200.0" layoutX="786.0" layoutY="279.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../imageFolder/caterpie.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="img11" fitHeight="150.0" fitWidth="200.0" layoutX="14.0" layoutY="438.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../imageFolder/metapod.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="img12" fitHeight="150.0" fitWidth="200.0" layoutX="233.0" layoutY="450.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../imageFolder/butterfree.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="img13" fitHeight="150.0" fitWidth="200.0" layoutX="446.0" layoutY="450.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../imageFolder/pichu.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="img14" fitHeight="150.0" fitWidth="200.0" layoutX="625.0" layoutY="450.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../imageFolder/pikachu.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="img15" fitHeight="150.0" fitWidth="200.0" layoutX="800.0" layoutY="450.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../imageFolder/raichu.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="B01" layoutX="50.0" layoutY="246.0" mnemonicParsing="false" onAction="#showInfoPoke" prefHeight="31.0" prefWidth="108.0" text="Bulbasur">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Button>
+      <Button fx:id="B02" layoutX="276.0" layoutY="246.0" mnemonicParsing="false" onAction="#showInfoPoke" prefHeight="26.0" prefWidth="108.0" text="Ivysaur">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Button>
+      <Button fx:id="B03" layoutX="440.0" layoutY="246.0" mnemonicParsing="false" onAction="#showInfoPoke" prefHeight="31.0" prefWidth="108.0" text="Venusaur">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Button>
+      <Button fx:id="B04" layoutX="615.0" layoutY="246.0" mnemonicParsing="false" onAction="#showInfoPoke" prefHeight="31.0" prefWidth="108.0" text="Charmander">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Button>
+      <Button fx:id="B05" layoutX="788.0" layoutY="246.0" mnemonicParsing="false" onAction="#showInfoPoke" prefHeight="26.0" prefWidth="118.0" text="Charmeleon">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Button>
+      <Button fx:id="B6" layoutX="62.0" layoutY="417.0" mnemonicParsing="false" onAction="#showInfoPoke" prefHeight="26.0" prefWidth="92.0" text="Charizard">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Button>
+      <Button fx:id="B07" layoutX="262.0" layoutY="425.0" mnemonicParsing="false" onAction="#showInfoPoke" prefHeight="26.0" prefWidth="92.0" text="Squirtle">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Button>
+      <Button fx:id="B08" layoutX="456.0" layoutY="427.0" mnemonicParsing="false" onAction="#showInfoPoke" prefHeight="26.0" prefWidth="92.0" text="Wartortle">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Button>
+      <Button fx:id="B09" layoutX="628.0" layoutY="427.0" mnemonicParsing="false" onAction="#showInfoPoke" prefHeight="31.0" prefWidth="118.0" text="Blastoise">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Button>
+      <Button fx:id="B10" layoutX="823.0" layoutY="430.0" mnemonicParsing="false" onAction="#showInfoPoke" prefHeight="26.0" prefWidth="100.0" text="Caterpie">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Button>
+      <Button fx:id="B11" layoutX="47.0" layoutY="588.0" mnemonicParsing="false" onAction="#showInfoPoke" prefHeight="26.0" prefWidth="108.0" text="Metapod">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Button>
+      <Button fx:id="B12" layoutX="268.0" layoutY="588.0" mnemonicParsing="false" onAction="#showInfoPoke" prefHeight="26.0" prefWidth="108.0" text="Butterfree">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Button>
+      <Button fx:id="B13" layoutX="476.0" layoutY="591.0" mnemonicParsing="false" onAction="#showInfoPoke" prefHeight="31.0" prefWidth="68.0" text="Pichu">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Button>
+      <Button fx:id="B14" layoutX="661.0" layoutY="588.0" mnemonicParsing="false" onAction="#showInfoPoke" prefHeight="26.0" prefWidth="77.0" text="Pikachu">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Button>
+      <Button fx:id="B15" layoutX="809.0" layoutY="587.0" mnemonicParsing="false" onAction="#showInfoPoke" prefHeight="31.0" prefWidth="78.0" text="Raichu">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Button>
+   </children>
+</AnchorPane>
